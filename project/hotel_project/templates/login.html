@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+
+  <form action="#" method="POST">
+      {%csrf_token%}
+      <p>username</p>
+      <input type="text" id="username" name="username"/>
+      <p>password</p>
+      <input type="password" id="password" name="password"/><br>
+      <input type="submit" value="login">
+      {{message}}
+  </form>
